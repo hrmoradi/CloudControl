@@ -40,7 +40,7 @@ def awsInstance(appName, vmType, Bclass):  # , imageType, nodeID):
 
     ec2c = boto3.client('ec2', aws_access_key_id='AKI',
                         aws_secret_access_key='6qz', region_name='us-west-2')
-    ec2s = boto3.resource('ec2', aws_access_key_id='AKIAJSFSIMVMOOXMC2AQ',
+    ec2s = boto3.resource('ec2', aws_access_key_id='AKI',
                           aws_secret_access_key='6qz', region_name='us-west-2')
 
     response = ec2c.describe_instances()
